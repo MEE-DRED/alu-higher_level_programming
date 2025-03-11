@@ -24,9 +24,8 @@ class Student:
                                                                                                                                 d_list = {}
 
                                                                                                                                 for iatr in range(len(attrs)):
-                                                                                                                                    for satr in obj:
-                                                                                                                                        if attrs[iatr] == satr:
-                                                                                                                                            d_list[satr] = obj[satr]
-                                                                                                                                return d_list
+                for satr in obj:                                                                                                        if attrs[iatr] == satr:
+                        d_list[satr] = obj[satr]
+            return d_list
 
-                                                                                                                            return obj
+        return obj
