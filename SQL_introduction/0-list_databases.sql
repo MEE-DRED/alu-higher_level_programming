@@ -1,3 +1,2 @@
-#My sql
-#!/usr/bin/mysql -hlocalhost -uroot -p
+-- MySQL script to list database
 SHOW DATABASES;
